@@ -18,5 +18,6 @@ pip install petname guinfo twilio
 ## Run experiments
 
 python -c "import factor_models; factor_models.run_crypto_pca()"
+
 python run_train_test_crypto.py --config configs/crypto-full.yaml
 
